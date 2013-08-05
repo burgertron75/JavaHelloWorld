@@ -1,3 +1,5 @@
+@echo off
+
 REM *** CruiseLaunchTOSCA.bat
 REM *** Kick off TOSCA Regression Tests ***
 REM *** Created to run from Go CI (formerly 'Cruise')
