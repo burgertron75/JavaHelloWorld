@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JavaHelloWorld" default="HelloWorld" basedir=".">
+	<property name="HelloText" value="Hello from the Ant Builder"/>
+	<property name="DependText" value="This is the dependent target!"/>
+	<target name="HelloWorld">
+		<echo>${HelloText}</echo>
+	</target>
+	
+	<target name="Dependent">
+		<depends>
+			<property name="HelloText" value="Hello from the Ant Builder"/>
+		</depends>
+		<echo>${DependText}</echo>
+	</target>	
+</project>
