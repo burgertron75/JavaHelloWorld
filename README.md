@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html>
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
@@ -621,7 +620,9 @@
     <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
 <a name="javahelloworld" class="anchor" href="#javahelloworld"><span class="octicon octicon-link"></span></a>JavaHelloWorld</h1>
 
-<p>Eclipse Java HelloWorld.  For CI testing</p></article>
+<p>Eclipse Java HelloWorld.  For CI testing</p>
+<p> - Used with Jenkins, Go, Bamboo CI tools.</p>
+<p> - Used with TOSCA for triggered functional automation.</p></article>
   </div>
 
   </div>
